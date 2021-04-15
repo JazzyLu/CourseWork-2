@@ -2,7 +2,7 @@
   "name": "cw-2",
   "version": "1.0.0",
   "description": "CST3145 CW-2",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
