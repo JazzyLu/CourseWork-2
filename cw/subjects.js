@@ -1,92 +1,92 @@
 let subjects = [
     {
         id: 1,
-        title: "Maths",
-        location: "London",
+        title: "Biology",
+        location: "Valleta",
         price: 10000,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 2,
-        title: "Physics",
-        location: "Oxford",
+        title: "Science",
+        location: "Rabat",
         price: 12000,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 3,
         title: "English",
-        location: "London",
+        location: "Valleta",
         price: 11000,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 4,
-        title: "Chemistry",
-        location: "York",
+        title: "Algebra",
+        location: "Mdina",
         price: 12000,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 5,
-        title: "Music",
-        location: "Bristol",
+        title: "Economics",
+        location: "Zebbug",
         price: 9000,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 6,
-        title: "Computer Science",
-        location: "London",
+        title: "Physical Education",
+        location: "Valleta",
         price: 10000,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 7,
         title: "French",
-        location: "Oxford",
+        location: "Rabat",
         price: 10000,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 8,
-        title: "Japanese",
-        location: "London",
+        title: "Fine Art",
+        location: "Valleta",
         price: 10500,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 9,
-        title: "Spanish",
-        location: "York",
+        title: "Geography",
+        location: "Mdina",
         price: 8500,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     },
     {
         id: 10,
-        title: "Korean",
-        location: "Bristol",
+        title: "History",
+        location: "Zebbug",
         price: 9500,
         image: "images/calc1.png",
         spaces: 5,
-        quantity: 1
+        quantity: 0
     }
 ]
