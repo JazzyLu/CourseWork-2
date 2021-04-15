@@ -7,7 +7,7 @@
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shammah Ekong",
+  "author": "JazzyLu",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/W01f10v3r69/Coursework2.git"
+    "url": "git+https://github.com/JazzyLu/Coursework-2.git"
   },
   "bugs": {
-    "url": "https://github.com/W01f10v3r69/Coursework2/issues"
+    "url": "https://github.com/JazzyLu/Coursework-2/issues"
   },
-  "homepage": "https://github.com/W01f10v3r69/Coursework2#readme"
+  "homepage": "https://github.com/JazzyLu/Coursework-2#readme"
 }
