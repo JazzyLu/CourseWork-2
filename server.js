@@ -14,10 +14,10 @@ app.use(express.static(publicPath));
 
 
 let con =
-MongoClient.connect('mongodb+srv://wolflover:wolflover@nether.rl4hb.mongodb.net/cwdb?retryWrites=true&w=majority',
+MongoClient.connect('mongodb+srv://JazzyLu:Catherine1125.@nether.rl4hb.mongodb.net/CWDB?retryWrites=true&w=majority',
 {useUnifiedTopology: true}
 // (err, client) => {
-//     db = client.db('cwdb')}
+//     db = client.db('CWDB')}
   );
 
 // app.param('collectionName', (req, res, next, collectionName) =>{
@@ -63,7 +63,7 @@ app.use((req, res, next) => {
 
 //Lessons GET
 app.get('/lessons', (req, res) => {
-    con.then(client => client.db('cwdb').collection('lessons').find({}).toArray((err, result) => {
+    con.then(client => client.db('CWDB').collection('lessons').find({}).toArray((err, result) => {
         if(err) console.log(err);
         res.send(JSON.stringify(result));
     }));
@@ -71,7 +71,7 @@ app.get('/lessons', (req, res) => {
 
 //Orders POST
 app.post('/orders', (req, res) => {
-    con.then(client => client.db('cwdb').collection('orders').insertOne(req.body, (err, result) => {
+    con.then(client => client.db('CWDB').collection('orders').insertOne(req.body, (err, result) => {
         if(err) throw (err);
         res.send(result.ops)
     }));
@@ -89,7 +89,7 @@ app.put('/updateSpaces', (req, res) => {
     for(let i = 0, l = data.length; i < l; i++) {
         let lessonID =  data[i].lesson_id;
         let updatedSpaces = { $set: {spaces: data[i].spaces - 1} };
-        con.then(client =>  client.db('cwdb').collection('lessons').updateMany({
+        con.then(client =>  client.db('CWDB').collection('lessons').updateMany({
             lesson_id: id
         }, updatedSpaces, {
             safe: true,
