@@ -14,7 +14,7 @@ app.use(express.static(publicPath));
 
 
 let con =
-MongoClient.connect('mongodb+srv://JazzyLu:Catherine1125.@cluster0.rl4hb.mongodb.net/CWDB?retryWrites=true&w=majority',
+MongoClient.connect('mongodb+srv://JazzyLu:Catherine1125.@cluster0.uhtdf.mongodb.net/CWDB?retryWrites=true&w=majority',
 {useUnifiedTopology: true}
 // (err, client) => {
 //     db = client.db('CWDB')}
